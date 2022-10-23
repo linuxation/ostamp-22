@@ -1,2 +1,2 @@
-# ostamp-22
-OStaMP dummy web app
+# memberbox
+IT-Universe GNU/Linux administration contest application

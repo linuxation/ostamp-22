@@ -1,0 +1,6 @@
+{% extends 'base.html' %}
+
+{% block content %}
+Ласкаво просимо у тестовий веб-додаток для лабораторних робіт з операційних систем. Цей веб-додаток створено за допомогою фреймворку <a href="https://flask.palletsprojects.com/en/2.2.x/" target="_blank">Flask</a>.<br />
+Кількість зареєстрованих студетів: <b>{{ stud_count }}</b>. <a href="{{ url_for('list_students') }}">Список зареєстрованих студентів</a>
+{% endblock %}
